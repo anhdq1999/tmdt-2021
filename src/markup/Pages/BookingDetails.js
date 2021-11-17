@@ -82,12 +82,12 @@ const tourDay = [
     },
 ]
 
-var bg3 = require('./../../images/banner/bnr1.jpg');
+const bg3 = require('./../../images/banner/bnr1.jpg');
 
 class BookingDetails extends Component {
 
     render() {
-        var settings = {
+        const settings = {
             dots: false,
             slidesToShow: 1,
             infinite: true,

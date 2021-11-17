@@ -4,7 +4,7 @@ import GoogleMaps from "simple-react-google-maps"
 import Header2 from './../Layout/Header2';
 import Footer from './../Layout/Footer';
 
-var bg3 = require('./../../images/banner/bnr1.jpg');
+const bg3 = require('./../../images/banner/bnr1.jpg');
 class Contacts extends Component {
 
     render() {

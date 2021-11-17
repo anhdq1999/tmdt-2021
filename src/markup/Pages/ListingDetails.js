@@ -6,7 +6,7 @@ import { TabContent, TabPane } from 'reactstrap';
 import classnames from 'classnames';
 
 
-var bg3 = require('./../../images/banner/bnr1.jpg');
+const bg3 = require('./../../images/banner/bnr1.jpg');
 
     const ListingDetails = (props) => {
         const [activeTab, setActiveTab] = useState('1');

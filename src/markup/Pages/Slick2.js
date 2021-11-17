@@ -32,7 +32,7 @@ const destination = [
 ]
 
 
-var bg1 = require('./../../images/background/bg1.jpg');
+const bg1 = require('./../../images/background/bg1.jpg');
 
 function SampleNextArrow(props) {
   const {  onClick } = props;
@@ -52,7 +52,7 @@ function SamplePrevArrow(props) {
 class Slick2 extends Component {
 
     render() {
-        var settings = {
+        const settings = {
             dots: false,
             slidesToShow: 3,
             infinite: true,

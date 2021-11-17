@@ -33,7 +33,7 @@ const content = [
 
 
 
-var bg1 = require('./../../images/background/bg1.jpg');
+const bg1 = require('./../../images/background/bg1.jpg');
 
 
 

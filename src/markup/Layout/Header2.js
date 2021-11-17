@@ -11,8 +11,8 @@ class Header2 extends Component {
 
         // sidebar open/close
 
-        var btn = document.querySelector('.navicon');
-        var aaa = document.querySelector('.myNavbar ');
+        const btn = document.querySelector('.navicon');
+        const aaa = document.querySelector('.myNavbar ');
 
         function toggleFunc() {
             return aaa.classList.toggle("show");
@@ -22,8 +22,8 @@ class Header2 extends Component {
 
 
         // Sidenav li open close
-        var navUl = [].slice.call(document.querySelectorAll('.navbar-nav > li'));
-        for (var y = 0; y < navUl.length; y++) {
+        const navUl = [].slice.call(document.querySelectorAll('.navbar-nav > li'));
+        for (let y = 0; y < navUl.length; y++) {
             navUl[y].addEventListener('click', function () { checkLi(this) });
         }
 
@@ -89,17 +89,17 @@ class Header2 extends Component {
 
                             <div className="header-nav navbar-collapse collapse navbar myNavbar justify-content-center" id="navbarNavDropdown">
                                 <ul className="nav navbar-nav">
-                                    <li><Link to={''}>Home <i class="fa fa-chevron-down"></i></Link>
-                                        <ul class="sub-menu">
-                                            <li><Link to={'./'} class="dez-page">Home 1</Link></li>
-                                            <li><Link to={'index-2'} class="dez-page">Home 2 <span class="new-page menu-new">New</span></Link></li>
+                                    <li><Link to={''}>Home <i className="fa fa-chevron-down"></i></Link>
+                                        <ul className="sub-menu">
+                                            <li><Link to={'./'} className="dez-page">Home 1</Link></li>
+                                            <li><Link to={'index-2'} className="dez-page">Home 2 <span className="new-page menu-new">New</span></Link></li>
                                         </ul>
                                     </li>
                                     <li className="active"></li>
                                     <li><Link to={''}> Pages <i className="fa fa-chevron-down"></i></Link>
                                         <ul className="sub-menu">
                                             <li><Link to={'./about'} className="dez-page">About Us</Link></li>
-                                            <li><Link to={'./listing'} className="dez-page">Listing <span class="new-page menu-new">New</span></Link></li>
+                                            <li><Link to={'./listing'} className="dez-page">Listing <span className="new-page menu-new">New</span></Link></li>
                                             <li><Link to={'./hotel'}>Hotels</Link></li>
                                             <li><Link to={'./booking'}>Booking Details</Link></li>
                                             <li><Link to={'./place'}>Places</Link></li>
@@ -107,7 +107,7 @@ class Header2 extends Component {
                                             <li><Link to={'./error'} className="dez-page">Error 404</Link></li>
                                             <li><Link to={'./login'} className="dez-page">Login</Link></li>
                                             <li><Link to={'./register'} className="dez-page">Register</Link></li>
-                                            <li><Link to={'./register2'} className="dez-page">Register <span class="new-page menu-new">New</span></Link></li>
+                                            <li><Link to={'./register2'} className="dez-page">Register <span className="new-page menu-new">New</span></Link></li>
                                         </ul>
                                     </li>
                                     <li><Link to={''}>Hotels <i className="fa fa-chevron-down"></i></Link>

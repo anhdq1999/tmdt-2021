@@ -55,7 +55,7 @@ const gridBlog = [
 ]
 
 
-var bg3 = require('./../../images/banner/bnr1.jpg');
+const bg3 = require('./../../images/banner/bnr1.jpg');
 class BlogGrid extends Component {
 
     render() {

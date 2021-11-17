@@ -34,7 +34,7 @@ const destination = [
 class Slick extends Component {
 
     render() {
-        var settings = {
+        const settings = {
             dots: false,
             slidesToShow: 5,
             infinite: true,

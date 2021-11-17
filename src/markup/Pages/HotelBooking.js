@@ -36,11 +36,11 @@ const hotelSlider = [
         image: require('./../../images/hotel/pic10.jpg'),
     },
 ]
-var bg3 = require('./../../images/banner/bnr1.jpg');
+const bg3 = require('./../../images/banner/bnr1.jpg');
 class HotelBooking extends Component {
 
     render() {
-        var settings = {
+        const settings = {
             dots: false,
             slidesToShow: 1,
             infinite: true,

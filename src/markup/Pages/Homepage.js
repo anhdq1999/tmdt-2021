@@ -28,8 +28,8 @@ const content = [
     }
 ];
 
-var bg1 = require('./../../images/background/bg1.jpg');
-var bg3 = require('./../../images/background/bg3.jpg');
+const bg1 = require('./../../images/background/bg1.jpg');
+const bg3 = require('./../../images/background/bg3.jpg');
 
 class Homepage extends Component {
     render() {

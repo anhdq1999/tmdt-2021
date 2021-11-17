@@ -36,7 +36,7 @@ const placeList = [
     },
 ]
 
-var bg3 = require('./../../images/banner/bnr1.jpg');
+const bg3 = require('./../../images/banner/bnr1.jpg');
 class Place extends Component {
 
     render() {

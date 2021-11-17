@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-var bg3 = require('./../../images/background/bg5.jpg');
+const bg3 = require('./../../images/background/bg5.jpg');
 
 
 class Error404 extends Component {
